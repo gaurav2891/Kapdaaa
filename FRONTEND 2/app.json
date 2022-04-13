@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Kapda App",
+    "slug": "kapda-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/KapdaBazarIconSPLASH.png",
+    "splash": {
+      "image": "./assets/KapdaBazarIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/KapdaBazarIcon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.gauarv.adminkapdaapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
